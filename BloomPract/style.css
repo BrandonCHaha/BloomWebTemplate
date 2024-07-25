@@ -1,0 +1,147 @@
+
+
+.body {
+    margin: 0px;
+}
+
+.header{
+    display: flex;
+    background-color: #26292e;
+}
+
+.logo {
+    color: #949598;
+    flex: 4;
+}
+
+.logo h1 {
+    margin-left: 10px;
+    font-family: "Butterfly Kids", cursive;
+    font-weight: bolder;
+    font-size: 50px;
+    font-style: normal;
+}
+
+.socials {
+    flex: 1;
+    align-self: center;
+}
+
+.socials button {
+    border-radius: 100%;
+}
+
+.main {
+    display: flex;
+    background-color: #e7718b;
+    padding: 20px 10px;
+}
+
+.heroText {
+    flex: 1;
+    color: white;
+}
+
+.heroText h2 {
+    font-size: 35px;
+}
+
+.heroText p {
+    font-size: 25px;
+}
+
+.heroButtons {
+    display: flex;
+}
+
+.heroButtons div {
+    flex: 1;
+}
+
+.heroButtons div button {
+    color: white;
+    background: rgb(98,98,98);
+    background: linear-gradient(180deg, rgba(98,98,98,1) 35%, rgba(47,46,46,1) 100%);
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.heroImage {
+    flex: 1;
+}
+
+.heroImage img {
+    width: 75%;
+    vertical-align: middle;
+}
+
+.collumnContainer {
+    display: flex;
+    background-color: #f4f4f6;
+}
+
+.collumnContainer div {
+    flex: 1;
+}
+
+.collumnContainer div h3 {
+    color: #717173;
+}
+
+.collumnContainer div p {
+    color: #ceced0;
+}
+
+.lastContainer {
+    display: flex;
+}
+
+.productContainer {
+    flex: 2;
+}
+
+.productContainer img {
+    width: 40%;
+}
+
+.reviews {
+    flex: 1;
+}
+
+.imgLeft {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.imgRight {
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+.reviews p {
+    font-size: 25px;
+}
+
+.reviews span {
+    font-weight: bolder;
+}
+
+.footer {
+    background-color: #26292e;
+    display: flex;
+}
+
+.footerLeft {
+    flex: 1;
+    color: white;
+}
+
+.socialsFooter {
+    flex: 1;
+    text-align: right;
+    align-content: center;
+}
+
+.socialsFooter button {
+    border-radius: 100%;
+}
